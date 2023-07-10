@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .contenedor-section img {
+    height: 37vh;
+    border-radius: 20px;
+  }
+  
+  .opciones {
+    background-color: rgb(14, 37, 28);
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  .opciones li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: movimientos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes movimientos {
+    from {
+      background-color: rgb(15, 53, 45);
+    }
+    to {
+      background-color: rgb(42, 139, 118);
+    }
+  }
+  
+  .opciones li a:hover {
+    background-color: burlywood;
+  }
+  
+  .section {
+    width: 70%;
+    float: left;
+  }
+  
+  .article {
+    background-color: rgb(245, 255, 111);
+    margin: 15px;
+    border-radius: 13px;
+    padding: 34px;
+    box-shadow: 5px 5px 10px black;
+    height: 29vh;
+    color: rgb(0, 0, 0);
+  }
+  
+  .article h2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+  
+  .article img {
+    width: 120px;
+    height: 130px;
+    float: right;
+    margin: -20px;
+    border-radius: 20px;
+    border: solid 2.5px black;
+  }
+  
+  .article2 {
+    background-color: rgb(245, 255, 111);
+    margin: 15px;
+    border-radius: 13px;
+    padding: 34px;
+    box-shadow: 5px 5px 10px black;
+    height: 29vh;
+    color: rgb(0, 0, 0);
+  }
+  
+  .article2 img {
+    width: 120px;
+    height: 130px;
+    float: right;
+    margin: -20px;
+    border-radius: 20px;
+    border: solid 2.5px black;
+  }
+  
+  .article2 h2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+  
+  .aside h2 {
+    text-align: center;
+  }
+  
+  .aside {
+    width: 29%;
+    height: 60vh;
+    float: left;
+    background-color: rgb(15, 53, 45);
+    border-radius: 13px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  input[type=text] {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  input[type=date] {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4%;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  input[type=number] {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4%;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  input[type=time] {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4%;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  .btn {
+    text-align: center;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4%;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(19, 68, 57);
+    border-radius: 200px;
+    height: 25px;
+    
+  }
+  
+  .formulario:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .pie {
+    background-color: rgb(14, 37, 28);
+    border-radius: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: both;
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+  }
+  
